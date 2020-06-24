@@ -21,6 +21,7 @@ class String
     self.split(/\.|\?|\!/).delete_if do |i|
      #binding.pry
        i.length <2
+       
     end.count 
   end
 
