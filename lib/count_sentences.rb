@@ -22,7 +22,7 @@ class String
      #binding.pry
        s.length <2
     end.count 
-  
+
 
 
   end
