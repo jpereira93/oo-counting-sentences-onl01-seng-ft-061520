@@ -22,6 +22,7 @@ class String
      #binding.pry
        i.length <2
     end.count 
+  end
 
 
 
