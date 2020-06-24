@@ -18,12 +18,12 @@ class String
   end
 
   def count_sentences
-    self.split(/\.|\?|\!/) delete_if do |s|
+    self.split(/\.|\?|\!/) delete_if do |i|
      #binding.pry
-       s.length <2
+       i.length <2
     end.count 
 
 
 
-  end
+
 end
